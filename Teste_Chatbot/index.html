@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Protótipo de ChatBot</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+  <div class="chat-wrapper">
+    <div class="chat-header">Protótipo de ChatBot Escolar</div>
+    <div id="chat-box" class="chat-box"></div>
+    <div class="chat-input-area">
+      <input type="text" id="user-input" placeholder="Digite sua pergunta..." onkeydown="if(event.key==='Enter'){sendMessage();}">
+      <button onclick="sendMessage()">Enviar</button>
+    </div>
+  </div>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
