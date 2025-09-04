@@ -25,6 +25,7 @@ Respostas limitadas ao que foi previamente programado;
 Não lida bem com perguntas fora do escopo;
 
 Pouca flexibilidade para aprendizado ou adaptação.
+
 ---
 
 
